@@ -1,7 +1,3 @@
-Here's a description for your Django-based project repository that allows users to upload resumes and receive job suggestions based on the content of the resume:
-
----
-
 ## Resume-Based Job Recommendation System
 
 This is a Django-powered web application where users can upload their resumes in PDF or DOC format. Based on the content of the resume, the system analyzes the user's skills, experience, and other key details to provide personalized job recommendations.

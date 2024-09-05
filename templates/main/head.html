@@ -1,0 +1,12 @@
+{% load static %}
+<div class="collapse navbar-collapse" id="ftco-nav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active"><a href="{% url "index" %}" class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="{% url "candidate:browsejobs" %}" class="nav-link">Browse Jobs</a></li>
+      <li class="nav-item"><a href="{% url "candidate:candidates" %}" class="nav-link">Canditates</a></li>
+      <li class="nav-item"><a href="{% url "contact" %}" class="nav-link">Contact</a></li>
+      <li class="nav-item cta mr-md-1"><a href="{% url "employer:post-a-job" %}" class="nav-link">Post a Job</a></li>
+      <li class="nav-item cta cta-colored"><a href="{% url "candidate:want-a-job" %}" class="nav-link">Want a Job</a></li>
+
+    </ul>
+  </div>
